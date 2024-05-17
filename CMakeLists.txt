@@ -13,10 +13,14 @@ set(HAILO_TEST_CPP_FILES
 )
 
 add_executable(hailo-test
-    $(HAILO_TEST_CPP_FILES)
+    ${HAILO_TEST_CPP_FILES}
 )
 
 set_property(TARGET hailo-test PROPERTY CXX_STANDARD 14)
+
+target_link_libraries(hailortcli
+    libhailort
+)
 
 target_include_directories(hailo-test
     PRIVATE
