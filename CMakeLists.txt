@@ -18,7 +18,7 @@ add_executable(hailo-test
 
 set_property(TARGET hailo-test PROPERTY CXX_STANDARD 14)
 
-target_link_libraries(hailortcli
+target_link_libraries(hailo-test
     libhailort
 )
 
