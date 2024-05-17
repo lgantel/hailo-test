@@ -27,4 +27,4 @@ install(TARGETS hailo-test
    RUNTIME DESTINATION ${CMAKE_INSTALL_BINDIR}
    CONFIGURATIONS Release
 )
-cli11_install_completion_file(hailo-test)
+
