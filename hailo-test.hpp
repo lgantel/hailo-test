@@ -1,7 +1,7 @@
 #ifndef HAILO_TEST_HPP
 #define HAILO_TEST_HPP
 
-#include "hailort/hailort.h"
+#include "hailo/hailort.h"
 #include "hailo/expected.hpp"
 #include "hailo/device.hpp"
 #include <string>
